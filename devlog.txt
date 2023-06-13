@@ -1,0 +1,159 @@
+GamesMathCool
+Yusha Aziz
+William Guo
+Jeffrey Zou
+Sebastian Ching
+pd 2
+---------------------
+project 5
+
+
+ ______   ______   __   __   __       ______   _______
+/_____/\ /_____/\ /_/\ /_/\ /_/\     /_____/\ /______/\
+\:::_ \ \\::::_\/_\:\ \\ \ \\:\ \    \:::_ \ \\::::__\/__
+ \:\ \ \ \\:\/___/\\:\ \\ \ \\:\ \    \:\ \ \ \\:\ /____/\
+  \:\ \ \ \\::___\/_\:\_/.:\ \\:\ \____\:\ \ \ \\:\\_  _\/
+   \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \
+    \____/_/ \_____\/ \___/_/   \_____\/ \_____\/ \_____\/
+==============================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+YushaA -- 2023-05-31 20:56
+--------------------------------------------------------------
+  - formulated a list of games to work on for the weekend
+    - hangman
+    - brickbreak
+    - snake
+    - rock paper scissors
+  - finished hangman
+  - tested for bugs
+==============================================================
+
+YushaA -- 2023-06-01 23:17
+--------------------------------------------------------------
+  - finished rock paper scissors
+  - started to work on tic tac toe but had no sucess
+==============================================================
+
+YushaA -- 2023-06-04 18:07
+--------------------------------------------------------------
+  - started the brick break game
+  - finished the brick break game, fixed bugs, and added extra levels
+  - started connect4, but still no sucess
+==============================================================
+
+WilliamG -- 2023-06-04 20:47
+--------------------------------------------------------------
+* Updated design document with feedback
+  - description/summary of website updated to make goals more clear
+  - games created do not have to be single player
+  - updated front-end site map to include login page
+  - removed uneccesary sections of component map and updated api calls
+==============================================================
+
+JeffZ -- 2023-06-05 21:30
+--------------------------------------------------------------
+- Created and set up base website with placeholder games
+- Routed one of our games to base website for testing
+- Added styling via CSS
+==============================================================
+
+WilliamG -- 2023-06-06 09:15
+--------------------------------------------------------------
+* Debugging connect4 where it doesn't detect a winner
+==============================================================
+
+WilliamG -- 2023-06-07 00:10
+--------------------------------------------------------------
+* Debugged snake game where snake doesn't increase speed when eating new apples
+* Updated canvas drawing of game so each body part of snake is one tile size
+* Added game over screen and lose conditions (wall collision and body collision)
+* Added score to top right
+==============================================================
+
+WilliamG -- 2023-06-09 09:00
+--------------------------------------------------------------
+* started a memory game using js, tons of bugs to fix
+ - card shows both the front and back image
+ - doesn't flip to reveal both sides
+ - matching pairs not detecting
+==============================================================
+
+WilliamG -- 2023-06-11 21:13
+--------------------------------------------------------------
+* completed simple color memory game and added a restart button that resets game (game revamped to be easier)
+* fixed connect4 issue which now stops game when there is a winner, also displays that winner
+ - connect 4 now has a board and tile
+ - also a restart button that resets board
+* completed tic-tac-toe game with highlights of winning combination and restart button
+==============================================================
+
+WilliamG -- 2023-06-12 9:11
+--------------------------------------------------------------
+* began moving all the games into the main app file, the following games have been sucessfully transfered over:
+ - hangman
+ - connect4
+ - snake
+ - memory game
+ - tic-tac-toe
+ - rock-paper-scissors 
+* added routing for all of the games above in __init__
+* updated README file with missing info
+==============================================================
+
+YushaA -- 2023-06-12 18:05
+--------------------------------------------------------------
+* added the image logo for the following games:
+  - hangman
+  - connect4
+  - snake
+  - memorgy game
+  - brick break
+  - memory
+  - tic-tac-toe
+  - rock-paper-scissors
+==============================================================
+
+YushaA -- 2023-06-12 20:06
+--------------------------------------------------------------
+* bug tested following games
+  - hangman -- 1 BUG
+  - connect4 -- NO BUGS
+  - memory -- NO BUGS
+  - snake -- 1 BUG
+  - memorgy game -- NO BUGS
+  - tic-tac-toe -- 1 BUG
+  - brick break -- NO BUGS
+  - rock-paper-scissors -- 1 BUG 
+  - pacman -- COMPLETELY BROKEN [REMOVED]
+  - dotconnect -- COMPLETELY BROKEN [REMOVED]
+* fixed following bugs
+  - for hangman if you loaded it automatically showed loss
+  - snake does not have a reset button
+  - for tic_tac_toe it did not show which players turn it is
+  - for rock_paper_scissors the table columns were messed up
+==============================================================
+
+YushaA -- 2023-06-12 22:07
+--------------------------------------------------------------
+* moved all the games from their individual folders to the __init__.play
+* had to rewrite rock_paper_scissors and hangman to accomodate
+* added all the images on the main homepage for the following games
+  - brick break
+  - memory
+  - hangman
+  - snake
+  - 2048
+  - tic tac toe
+  - rock_paper_scissors
+  - Connect4
+==============================================================
+
+JeffZ -- 2023-06-12 21:30
+--------------------------------------------------------------
+- Finished website templates and designs
+- Rerouted all games to new front end framework
+- Added styling via CSS
+- Added flappy bird
+- Fix minor styling issues and bugs
+==============================================================

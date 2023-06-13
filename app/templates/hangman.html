@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/hangman.css">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+
+<body>
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <h2><a href="/"><img src="../static/img/mathcoolgames.png"></a></h2>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="/">HOME</a></li>
+                        <li class="active"><a href="/games">GAMES</a></li>
+                        <li><a href="/about">INSIGHTS</a></li>
+                        <li><a href="#">SUPPORT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h1 style = "color:white">Hangman Game</h1>
+            <div style = "color:white" id="word-display">{{ word_display }}</div>
+            <div style = "color:white" id="chances">Chances remaining: {{ chances }}</div>
+            <div style = "color:white" id="guessed-letters">
+                Guessed letters:
+                {% for letter in guessed_letters %}
+                {{ letter }}
+                {% endfor %}
+            </div>
+            <form method="POST" action="/hangman">
+                <input type="text" name="letter" maxlength="1" autocomplete="off" required>
+                <button type="submit">Guess</button>
+            </form>
+            <a style = "color:white" href="/hangman_reset">Reset</a>
+        </div>
+    </section>
+</body>
+<footer class="main-footer">
+    <p>&copy; 2023 Math Cool Games. All rights reserved.</p>
+</footer>
+
+</html>

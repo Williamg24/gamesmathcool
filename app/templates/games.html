@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <h2><a href="/"><img src="../static/img/mathcoolgames.png"></a></h2>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="/">HOME</a></li>
+                        <li class="active"><a href="/games">GAMES</a></li>
+                        <li><a href="/about">INSIGHTS</a></li>
+                        <li><a href="#">SUPPORT</a></li>
+                        <li class="btn"><a href="#">LOGIN</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="game-content">
+                <p1 id="game">GAME <p2 id="categories">CATEGORIES</p2></p1>
+                <div class="button-list">
+                    <ul>
+                        <li class="active" data-category="all"><a href="#">POPULAR</a></li>
+                        <li data-category="classics"><a href="#">CLASSICS</a></li>
+                        <li data-category="numbers"><a href="#">NUMBERS</a></li>
+                        <li data-category="skills"><a href="#">SKILLS</a></li>
+                        <li data-category="arcade"><a href="#">ARCADE</a></li>
+                        <li class="btn"><a href="#">OTHER</a></li>
+                      </ul>
+            </div>
+            <section class="game-list">
+                <ul>
+                  
+                  <li data-category="arcade">
+                    <div class="game-card">
+                      <img src="../static/img/brickbreak.jpg" alt="Game 1">
+                      <h3>Brick Break</h3>
+                      <p>Destroy all the breaks with a ball</p>
+                      <a href="/brick_break">Play Now</a>
+                    </div>
+                  </li>
+
+                  <li data-category="classics">
+                    <div class="game-card">
+                      <img src="../static/img/memory.jpg" alt="Game 2">
+                      <h3>Memory Game</h3>
+                      <p>Memorize the position of each color and find its partner</p>
+                      <a href="/memory">Play Now</a>
+                    </div>
+                  </li>
+
+                  <li data-category="arcade">
+                    <div class="game-card">
+                      <img src="../static/img/snake.jpg" alt="Game 3">
+                      <h3>Snake</h3>
+                      <p>Eat the apple to grow larger</p>
+                      <a href="/snake">Play Now</a>
+                    </div>
+                  </li>
+
+                  <li data-category="classics">
+                    <div class="game-card">
+                      <img src="../static/img/tikctactoe.png" alt="Game 4">
+                      <h3>Tic Tac Toe</h3>
+                      <p>Compete against friends to get 3 in a row</p>
+                      <a href="/tic_tac_toe">Play Now</a>
+                    </div>
+                  </li>
+
+                  <li data-category="numbers">
+                    <div class="game-card">
+                      <img src="../static/img/2048.PNG" alt="Game 5">
+                      <h3>2048</h3>
+                      <p>Try to reach 2048</p>
+                      <a href="/2048">Play Now</a>
+                    </div>
+                  </li>
+
+                  <li data-category="skills">
+                    <div class="game-card">
+                      <img src="../static/img/Connect4.jpg" alt="Game 6">
+                      <h3>Connect 4</h3>
+                      <p>Compete against a friend to be the first one to connect 4</p>
+                      <a href="/connect4">Play Now</a>
+                    </div>
+                  </li>
+                  <li data-category="skills">
+                    <div class="game-card">
+                      <img src="../static/img/rockpaperscissors.png" alt="Game 7">
+                      <h3>Rock Paper Scissors</h3>
+                      <p>Can you defeat the AI?</p>
+                      <a href="/rps">Play Now</a>
+                    </div>
+                  </li>
+
+                  <li data-category="skills">
+                    <div class="game-card">
+                      <img src="../static/img/hangman.png" alt="Game 8">
+                      <h3>Hangman</h3>
+                      <p>Fill in the word before its too late</p>
+                      <a href="/hangman">Play Now</a>
+                    </div>
+                  </li>
+
+              
+
+               
+
+                  <li data-category="arcade">
+                    <div class="game-card">
+                      <img src="../static/img/flappybird.PNG" alt="Game 12">
+                      <h3>Flappy Bird</h3>
+                      <p> Don't let the flying bird hit the pipes</p>
+                      <a href="/flappy_bird">Play Now</a>
+                    </div>
+                  </li>
+                </ul>
+              </section>
+
+            <script src="../static/js/script.js"></script>
+        </div>
+        
+        
+    </section>
+    <footer class="main-footer">
+        <p>&copy; 2023 My Cool Math Games. All rights reserved.</p>
+      </footer>
+</body>
+
+
+</html>
+

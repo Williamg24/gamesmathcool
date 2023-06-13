@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brick Break Game</title>
+    <style>
+        canvas {
+            background-color: black;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Additional styling */
+        #gameOverMessage {
+            display: none;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            margin-top: 10px;
+        }
+
+        #tryAgain {
+            display: none;
+            margin-top: 10px;
+        }
+
+        .start-level-btns {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="480" height="320"></canvas>
+
+    <p id="gameOverMessage"></p>
+    <button id="tryAgain" onclick="resetGame()">Try Again</button>
+
+    <div class="start-level-btns">
+        <button onclick="navigateToLevel('level1')">Start Level 1</button>
+        <button onclick="navigateToLevel('level2')">Start Level 2</button>
+        <button onclick="navigateToLevel('level3')">Start Level 3</button>
+    </div>
+
+   
+    <script src="../static/js/game1.js"></script>
+    <script>
+        function navigateToLevel(level) {
+            window.location.href = '/' + level;
+        }
+
+        function resetGame() {
+            document.location.reload();
+        }
+
+        function showGameOverMessage() {
+            document.getElementById("gameOverMessage").textContent = "Game Over. Try again!";
+            document.getElementById("tryAgain").style.display = "block";
+        }
+
+        function showCongratulationsMessage() {
+            document.getElementById("gameOverMessage").textContent = "Congratulations! You won!";
+            document.getElementById("tryAgain").style.display = "block";
+        }
+    </script>
+</body>
+</html>

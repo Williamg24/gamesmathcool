@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+#word-display {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#chances {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 30px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+}

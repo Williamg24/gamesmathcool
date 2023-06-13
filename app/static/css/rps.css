@@ -1,0 +1,46 @@
+/* Add lines to the table */
+.results-table {
+    border-collapse: collapse;
+    width: 100%;
+    color:white;
+}
+
+.results-table th, .results-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Add spacing between table cells */
+.results-table td {
+    text-align: center;
+}
+
+/* Update the score section */
+.score {
+    margin-top: 20px;
+    color:white;
+}
+
+.score p {
+    margin: 5px 0;
+    color:white;
+}
+
+/* Additional styling */
+h1 {
+    text-align: center;
+    color:white;
+
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.play-again {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Rest of your existing styles... */

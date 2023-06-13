@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+}
+
+canvas {
+    box-shadow: black 20px 10px 50px;
+    position:relative;
+    right:-500px;
+}
